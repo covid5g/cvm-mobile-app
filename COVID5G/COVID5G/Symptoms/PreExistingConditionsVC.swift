@@ -43,7 +43,7 @@ extension PreExistingConditionsVC {
             .tap
             .subscribe(onNext: { [weak self] _ in
                 UserDefaults.standard.set((self!.preExistingScore*self!.set.count*10), forKey: "preExistingScore")
-//                MainCoordinator.shared.onProfile()
+                MainCoordinator.shared.onPreExistingConditionVC()
                 self?.dismiss(animated: true, completion: nil)
             }).disposed(by: disposeBag)
         

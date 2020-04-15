@@ -40,16 +40,16 @@ class MainCoordinator: Coordinator {
     }
     
     func start() {
-        if(true) {
+        if(!UserDefaults.standard.bool(forKey: "userLogged")) {
             let viewController = Storyboard.Main.disclaimerVC.get()
             navigationController.pushViewController(viewController, animated: true)
             
             window?.rootViewController = navigationController
             window?.makeKeyAndVisible()
         } else {
-//            let storyboard = UIStoryboard(name: "Feed", bundle: nil)
-//            let viewController = storyboard.instantiateViewController(identifier: "FeedTabController")
-//            navigationController.pushViewController(viewController, animated: true)
+            let storyboard = UIStoryboard(name: "Symptoms", bundle: nil)
+            let viewController = storyboard.instantiateViewController(identifier: "TabHandler")
+            navigationController.pushViewController(viewController, animated: true)
             
             window?.rootViewController = navigationController
             window?.makeKeyAndVisible()
@@ -106,6 +106,7 @@ extension MainCoordinator {
 //ProfileVC
 extension MainCoordinator {
     func onProfileCompleted() {
+        UserDefaults.standard.set(true, forKey: "userLogged")
         let viewController = Storyboard.Symptoms.generalVC.get()
         navigationController.pushViewController(viewController, animated: false)
     }
@@ -124,5 +125,14 @@ extension MainCoordinator {
     func onSymptomsCompleted() {
         let viewController = Storyboard.Symptoms.preExistingConditionsVC.get()
         navigationController.pushViewController(viewController, animated: false)
+    }
+}
+
+//PreExistingConditionVC
+extension MainCoordinator{
+    func onPreExistingConditionVC() {
+        let storyboard = UIStoryboard(name: "Symptoms", bundle: nil)
+        let viewController = storyboard.instantiateViewController(identifier: "TabHandler")
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

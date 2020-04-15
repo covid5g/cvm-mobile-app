@@ -48,6 +48,9 @@
 		5E60C22C2446F96D006AAB62 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C22B2446F96D006AAB62 /* Storyboard.swift */; };
 		5E60C22F2446FCA6006AAB62 /* LocationDisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C22E2446FCA6006AAB62 /* LocationDisclaimerVC.swift */; };
 		5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C2302446FF37006AAB62 /* AuthenticateVC.swift */; };
+		5E709EA624476DAB00D24EC9 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EA524476DAB00D24EC9 /* SettingsVC.swift */; };
+		5E709EA824476DF600D24EC9 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EA724476DF600D24EC9 /* SettingCell.swift */; };
+		5E709EAA24476E0100D24EC9 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E709EA924476E0100D24EC9 /* SettingCell.xib */; };
 		5EB057A124465D800029556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A024465D800029556C /* AppDelegate.swift */; };
 		5EB057A324465D800029556C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A224465D800029556C /* SceneDelegate.swift */; };
 		5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A424465D800029556C /* DisclaimerVC.swift */; };
@@ -99,6 +102,9 @@
 		5E60C22B2446F96D006AAB62 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		5E60C22E2446FCA6006AAB62 /* LocationDisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDisclaimerVC.swift; sourceTree = "<group>"; };
 		5E60C2302446FF37006AAB62 /* AuthenticateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateVC.swift; sourceTree = "<group>"; };
+		5E709EA524476DAB00D24EC9 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		5E709EA724476DF600D24EC9 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		5E709EA924476E0100D24EC9 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		5EB0579D24465D800029556C /* COVID5G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVID5G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB057A024465D800029556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB057A224465D800029556C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 				5E5C0F9B244728FC001C45EB /* GeneralVM.swift */,
 				5E33DC2524474438008A67E5 /* PreExistingConditionsVC.swift */,
 				5E33DC2724474448008A67E5 /* PreExistingConditionsVM.swift */,
+				5E709EA524476DAB00D24EC9 /* SettingsVC.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -191,6 +198,8 @@
 				5E33DC2324473F1C008A67E5 /* SymptomCell.xib */,
 				5E33DC29244744C1008A67E5 /* PreExistingCell.swift */,
 				5E33DC2B244744CC008A67E5 /* PreExistingCell.xib */,
+				5E709EA724476DF600D24EC9 /* SettingCell.swift */,
+				5E709EA924476E0100D24EC9 /* SettingCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -331,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB057AD24465D840029556C /* LaunchScreen.storyboard in Resources */,
+				5E709EAA24476E0100D24EC9 /* SettingCell.xib in Resources */,
 				5E33DC1A24473CBC008A67E5 /* Symptoms.json in Resources */,
 				5E33DC2C244744CC008A67E5 /* PreExistingCell.xib in Resources */,
 				5EB057AA24465D840029556C /* Assets.xcassets in Resources */,
@@ -413,6 +423,8 @@
 				5E33DC2024473DCC008A67E5 /* SymptomsVM.swift in Sources */,
 				5E5C0F9624472779001C45EB /* SuspectCaseLocal.swift in Sources */,
 				5E5C0F7A244712CC001C45EB /* Gender.swift in Sources */,
+				5E709EA624476DAB00D24EC9 /* SettingsVC.swift in Sources */,
+				5E709EA824476DF600D24EC9 /* SettingCell.swift in Sources */,
 				5E5C0F9A24472841001C45EB /* PreExisting.swift in Sources */,
 				5E5C0F78244712AE001C45EB /* GenderLocal.swift in Sources */,
 				5E5C0F7424471295001C45EB /* Repository.swift in Sources */,
