@@ -63,8 +63,8 @@
 		5E709EC024478F2900D24EC9 /* AddSymptomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */; };
 		5E709EC2244792F900D24EC9 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EC1244792F900D24EC9 /* MapVC.swift */; };
 		5E709EC4244793F100D24EC9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E709EC3244793F000D24EC9 /* WebKit.framework */; };
+		5E709EC62447CC5B00D24EC9 /* NavigatorGeolocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EC52447CC5B00D24EC9 /* NavigatorGeolocation.swift */; };
 		5EB057A124465D800029556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A024465D800029556C /* AppDelegate.swift */; };
-		5EB057A324465D800029556C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A224465D800029556C /* SceneDelegate.swift */; };
 		5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A424465D800029556C /* DisclaimerVC.swift */; };
 		5EB057A824465D800029556C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB057A624465D800029556C /* Main.storyboard */; };
 		5EB057AA24465D840029556C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB057A924465D840029556C /* Assets.xcassets */; };
@@ -129,9 +129,9 @@
 		5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSymptomVC.swift; sourceTree = "<group>"; };
 		5E709EC1244792F900D24EC9 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		5E709EC3244793F000D24EC9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5E709EC52447CC5B00D24EC9 /* NavigatorGeolocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorGeolocation.swift; sourceTree = "<group>"; };
 		5EB0579D24465D800029556C /* COVID5G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVID5G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB057A024465D800029556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EB057A224465D800029556C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EB057A424465D800029556C /* DisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerVC.swift; sourceTree = "<group>"; };
 		5EB057A724465D800029556C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB057A924465D840029556C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -173,6 +173,7 @@
 				5E709EB52447895B00D24EC9 /* AssessmentVM.swift */,
 				5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */,
 				5E709EC1244792F900D24EC9 /* MapVC.swift */,
+				5E709EC52447CC5B00D24EC9 /* NavigatorGeolocation.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -281,7 +282,6 @@
 				5E60C22D2446F9DA006AAB62 /* InitialSetup */,
 				5EB057B42446623E0029556C /* Coordinator */,
 				5EB057A024465D800029556C /* AppDelegate.swift */,
-				5EB057A224465D800029556C /* SceneDelegate.swift */,
 				5EB057A924465D840029556C /* Assets.xcassets */,
 				5EB057AB24465D840029556C /* LaunchScreen.storyboard */,
 				5EB057AE24465D840029556C /* Info.plist */,
@@ -448,6 +448,7 @@
 				5E5C0F7024470EC2001C45EB /* ProfileVC.swift in Sources */,
 				5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */,
 				5E33DC1C24473D80008A67E5 /* SymptomsLocal.swift in Sources */,
+				5E709EC62447CC5B00D24EC9 /* NavigatorGeolocation.swift in Sources */,
 				5E709EB224477FF300D24EC9 /* RecordedSymptom.swift in Sources */,
 				5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */,
 				5E709EC2244792F900D24EC9 /* MapVC.swift in Sources */,
@@ -486,7 +487,6 @@
 				5E60C22F2446FCA6006AAB62 /* LocationDisclaimerVC.swift in Sources */,
 				5E33DC1E24473DC3008A67E5 /* SymptomsVC.swift in Sources */,
 				5E5C0F8324471385001C45EB /* ProfileVM.swift in Sources */,
-				5EB057A324465D800029556C /* SceneDelegate.swift in Sources */,
 				5E33DC2A244744C1008A67E5 /* PreExistingCell.swift in Sources */,
 				5E5C0F8C2447261F001C45EB /* GeneralLocal.swift in Sources */,
 			);
@@ -636,6 +636,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JFC7SZAPYK;
 				INFOPLIST_FILE = COVID5G/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,6 +656,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JFC7SZAPYK;
 				INFOPLIST_FILE = COVID5G/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

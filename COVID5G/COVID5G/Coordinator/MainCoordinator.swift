@@ -17,7 +17,7 @@ protocol Coordinator {
     
     var window: UIWindow? { get set }
     var disposeBag: DisposeBag { get set }
-    func sceneDelegateDidLoad(withWindow window: UIWindow?)
+    func appDelegateDidLoad(withWindow window: UIWindow?)
     
     func start()
 }
@@ -33,7 +33,7 @@ class MainCoordinator: Coordinator {
         navigationController.interactivePopGestureRecognizer?.isEnabled = false
     }
     
-    func sceneDelegateDidLoad(withWindow window: UIWindow?) {
+    func appDelegateDidLoad(withWindow window: UIWindow?) {
         self.window = window
         
         start()

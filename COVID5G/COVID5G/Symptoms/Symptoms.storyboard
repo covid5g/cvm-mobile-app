@@ -506,29 +506,10 @@
                     <view key="view" contentMode="scaleToFill" id="0q7-ue-tAw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LTr-A2-GNe">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="LTr-A2-GNe" firstAttribute="top" secondItem="7rr-c8-dyi" secondAttribute="top" id="P7r-EB-JlE"/>
-                            <constraint firstItem="LTr-A2-GNe" firstAttribute="leading" secondItem="7rr-c8-dyi" secondAttribute="leading" id="QDU-o5-xFU"/>
-                            <constraint firstItem="7rr-c8-dyi" firstAttribute="bottom" secondItem="LTr-A2-GNe" secondAttribute="bottom" id="WJW-jk-Mat"/>
-                            <constraint firstItem="7rr-c8-dyi" firstAttribute="trailing" secondItem="LTr-A2-GNe" secondAttribute="trailing" id="bKM-xy-F46"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7rr-c8-dyi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" selectedImage="map" id="DWn-Hu-U13"/>
-                    <connections>
-                        <outlet property="webView" destination="LTr-A2-GNe" id="mpb-jP-TiD"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYZ-bT-ZRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
