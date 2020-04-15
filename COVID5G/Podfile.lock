@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Gemini (1.4.0)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ReachabilitySwift (5.0.0)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SwiftLint (0.39.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Gemini
+  - Moya/RxSwift (~> 13.0)
+  - ReachabilitySwift
+  - RxCocoa
+  - RxSwift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Gemini
+    - Moya
+    - ReachabilitySwift
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Gemini: 4ad915cca8805577fe3021e02feeca2b77dcdbfc
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+
+PODFILE CHECKSUM: e74390bf6414e21ee6acf64b0cca68c5b132304f
+
+COCOAPODS: 1.9.0
