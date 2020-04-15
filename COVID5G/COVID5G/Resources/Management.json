@@ -1,0 +1,22 @@
+[
+    {
+        "recommendation": "Call 911 now. Immediate medical attention is required. Tell the 911 operator if you have been in contact with someone with COVID-19 or if you have recently been to an area where COVID-19 is spreading."
+    },
+    {
+        "recommendation": "Ased on your symptoms, urgent medical attention may be needed. Go to the nearest emergency department.Tell the emergency staff if you have had contact with someone with COVID-19 or if you have recently been to an area where COVID-19 is spreading."
+    },
+    {
+        "recommendation": "You have some symptoms that may be related to COVID-19. You also have other medical conditions that could put you at higher risk for complications of COVID-19. Call your healthcare provider within 24 hours. Start home isolation. Stay home except to get medical care. Do not go to work, school, or public areas. Do not use public transportation or ride sharing."
+    },
+    {
+        "recommendation": "You have one or more symptom(s) that may be related to COVID-19. Stay home and consult your healthcare provider or call your Telehealth line if your symptoms get worse."
+    },
+    {
+        "recommendation": "Please self-isolate for 14 days. You do not need testing for COVID-19."
+    },
+    {
+        "recommendation": "Since you don’t have any COVID-19 symptoms, you don’t need to be tested for COVID-19."
+    }
+]
+
+

@@ -1,5 +1,5 @@
 //
-//  Symptom.swift
+//  Management.swift
 //  COVID5G
 //
 //  Created by Darius-George Oanea on 4/15/20.
@@ -8,8 +8,6 @@
 
 import Foundation
 
-struct Symptom: Codable, Hashable {
-    var displayName: String
-    var value: Bool
-    var points: Int
+struct Management: Codable {
+    var recommendation: String
 }

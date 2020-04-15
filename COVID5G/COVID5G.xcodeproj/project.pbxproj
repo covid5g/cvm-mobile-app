@@ -51,6 +51,15 @@
 		5E709EA624476DAB00D24EC9 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EA524476DAB00D24EC9 /* SettingsVC.swift */; };
 		5E709EA824476DF600D24EC9 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EA724476DF600D24EC9 /* SettingCell.swift */; };
 		5E709EAA24476E0100D24EC9 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E709EA924476E0100D24EC9 /* SettingCell.xib */; };
+		5E709EAC24477E2000D24EC9 /* AssessmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EAB24477E2000D24EC9 /* AssessmentVC.swift */; };
+		5E709EAE24477F2B00D24EC9 /* RecordedSymptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EAD24477F2B00D24EC9 /* RecordedSymptomCell.swift */; };
+		5E709EB024477F3C00D24EC9 /* RecordedSymptomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E709EAF24477F3C00D24EC9 /* RecordedSymptomCell.xib */; };
+		5E709EB224477FF300D24EC9 /* RecordedSymptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EB124477FF300D24EC9 /* RecordedSymptom.swift */; };
+		5E709EB42447821300D24EC9 /* SymptomsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EB32447821300D24EC9 /* SymptomsManager.swift */; };
+		5E709EB62447895B00D24EC9 /* AssessmentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EB52447895B00D24EC9 /* AssessmentVM.swift */; };
+		5E709EBA244789C400D24EC9 /* Management.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E709EB9244789C400D24EC9 /* Management.json */; };
+		5E709EBC244789D600D24EC9 /* ManagementLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBB244789D600D24EC9 /* ManagementLocal.swift */; };
+		5E709EBE244789F400D24EC9 /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBD244789F400D24EC9 /* Management.swift */; };
 		5EB057A124465D800029556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A024465D800029556C /* AppDelegate.swift */; };
 		5EB057A324465D800029556C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A224465D800029556C /* SceneDelegate.swift */; };
 		5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A424465D800029556C /* DisclaimerVC.swift */; };
@@ -105,6 +114,15 @@
 		5E709EA524476DAB00D24EC9 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		5E709EA724476DF600D24EC9 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		5E709EA924476E0100D24EC9 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		5E709EAB24477E2000D24EC9 /* AssessmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentVC.swift; sourceTree = "<group>"; };
+		5E709EAD24477F2B00D24EC9 /* RecordedSymptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSymptomCell.swift; sourceTree = "<group>"; };
+		5E709EAF24477F3C00D24EC9 /* RecordedSymptomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordedSymptomCell.xib; sourceTree = "<group>"; };
+		5E709EB124477FF300D24EC9 /* RecordedSymptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedSymptom.swift; sourceTree = "<group>"; };
+		5E709EB32447821300D24EC9 /* SymptomsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsManager.swift; sourceTree = "<group>"; };
+		5E709EB52447895B00D24EC9 /* AssessmentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentVM.swift; sourceTree = "<group>"; };
+		5E709EB9244789C400D24EC9 /* Management.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Management.json; sourceTree = "<group>"; };
+		5E709EBB244789D600D24EC9 /* ManagementLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementLocal.swift; sourceTree = "<group>"; };
+		5E709EBD244789F400D24EC9 /* Management.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Management.swift; sourceTree = "<group>"; };
 		5EB0579D24465D800029556C /* COVID5G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVID5G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB057A024465D800029556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB057A224465D800029556C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +162,8 @@
 				5E33DC2524474438008A67E5 /* PreExistingConditionsVC.swift */,
 				5E33DC2724474448008A67E5 /* PreExistingConditionsVM.swift */,
 				5E709EA524476DAB00D24EC9 /* SettingsVC.swift */,
+				5E709EAB24477E2000D24EC9 /* AssessmentVC.swift */,
+				5E709EB52447895B00D24EC9 /* AssessmentVM.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -152,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				5E5C0F79244712CC001C45EB /* Gender.swift */,
+				5E709EBD244789F400D24EC9 /* Management.swift */,
+				5E709EB124477FF300D24EC9 /* RecordedSymptom.swift */,
 				5E5C0F9924472841001C45EB /* PreExisting.swift */,
 				5E5C0F8924472602001C45EB /* General.swift */,
 				5E5C0F7B244712D5001C45EB /* AgeGroup.swift */,
@@ -168,9 +190,11 @@
 				5E5C0F9524472779001C45EB /* SuspectCaseLocal.swift */,
 				5E33DC1B24473D80008A67E5 /* SymptomsLocal.swift */,
 				5E5C0F972447278C001C45EB /* UrgentMedicalLocal.swift */,
+				5E709EBB244789D600D24EC9 /* ManagementLocal.swift */,
 				5E5C0F75244712A6001C45EB /* AgeLocal.swift */,
 				5E5C0F77244712AE001C45EB /* GenderLocal.swift */,
 				5E5C0F8B2447261F001C45EB /* GeneralLocal.swift */,
+				5E709EB32447821300D24EC9 /* SymptomsManager.swift */,
 			);
 			path = DataAccess;
 			sourceTree = "<group>";
@@ -183,6 +207,7 @@
 				5E5C0F8D2447268B001C45EB /* immediateMedicalAttention.json */,
 				5E5C0F8F244726A8001C45EB /* urgentMedical.json */,
 				5E5C0F9124472742001C45EB /* suspectCase.json */,
+				5E709EB9244789C400D24EC9 /* Management.json */,
 				5E5C0F87244725E6001C45EB /* general.json */,
 				5E5C0F802447133C001C45EB /* gender.json */,
 			);
@@ -200,6 +225,8 @@
 				5E33DC2B244744CC008A67E5 /* PreExistingCell.xib */,
 				5E709EA724476DF600D24EC9 /* SettingCell.swift */,
 				5E709EA924476E0100D24EC9 /* SettingCell.xib */,
+				5E709EAD24477F2B00D24EC9 /* RecordedSymptomCell.swift */,
+				5E709EAF24477F3C00D24EC9 /* RecordedSymptomCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -343,11 +370,13 @@
 				5E709EAA24476E0100D24EC9 /* SettingCell.xib in Resources */,
 				5E33DC1A24473CBC008A67E5 /* Symptoms.json in Resources */,
 				5E33DC2C244744CC008A67E5 /* PreExistingCell.xib in Resources */,
+				5E709EBA244789C400D24EC9 /* Management.json in Resources */,
 				5EB057AA24465D840029556C /* Assets.xcassets in Resources */,
 				5E33DC2424473F1C008A67E5 /* SymptomCell.xib in Resources */,
 				5E5C0F812447133C001C45EB /* gender.json in Resources */,
 				5E5C0F6E24470DEE001C45EB /* Symptoms.storyboard in Resources */,
 				5E5C0F90244726A8001C45EB /* urgentMedical.json in Resources */,
+				5E709EB024477F3C00D24EC9 /* RecordedSymptomCell.xib in Resources */,
 				5E5C0FA024472979001C45EB /* GeneralCell.xib in Resources */,
 				5E5C0F88244725E6001C45EB /* general.json in Resources */,
 				5E5C0F8E2447268B001C45EB /* immediateMedicalAttention.json in Resources */,
@@ -409,20 +438,27 @@
 				5E5C0F7024470EC2001C45EB /* ProfileVC.swift in Sources */,
 				5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */,
 				5E33DC1C24473D80008A67E5 /* SymptomsLocal.swift in Sources */,
+				5E709EB224477FF300D24EC9 /* RecordedSymptom.swift in Sources */,
 				5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */,
 				5E33DC1824473BFF008A67E5 /* Symptom.swift in Sources */,
+				5E709EB62447895B00D24EC9 /* AssessmentVM.swift in Sources */,
 				5E5C0F6924470134001C45EB /* LoginVC.swift in Sources */,
+				5E709EBC244789D600D24EC9 /* ManagementLocal.swift in Sources */,
 				5EB057B6244662610029556C /* MainCoordinator.swift in Sources */,
+				5E709EAE24477F2B00D24EC9 /* RecordedSymptomCell.swift in Sources */,
 				5E33DC2824474448008A67E5 /* PreExistingConditionsVM.swift in Sources */,
 				5E33DC2624474438008A67E5 /* PreExistingConditionsVC.swift in Sources */,
 				5E5C0F9E2447296E001C45EB /* GeneralCell.swift in Sources */,
 				5E5C0F7C244712D5001C45EB /* AgeGroup.swift in Sources */,
 				5E5C0F982447278C001C45EB /* UrgentMedicalLocal.swift in Sources */,
+				5E709EAC24477E2000D24EC9 /* AssessmentVC.swift in Sources */,
 				5E5C0F76244712A6001C45EB /* AgeLocal.swift in Sources */,
+				5E709EBE244789F400D24EC9 /* Management.swift in Sources */,
 				5E5C0F942447276B001C45EB /* ImmediateMedicalLocal.swift in Sources */,
 				5E33DC2024473DCC008A67E5 /* SymptomsVM.swift in Sources */,
 				5E5C0F9624472779001C45EB /* SuspectCaseLocal.swift in Sources */,
 				5E5C0F7A244712CC001C45EB /* Gender.swift in Sources */,
+				5E709EB42447821300D24EC9 /* SymptomsManager.swift in Sources */,
 				5E709EA624476DAB00D24EC9 /* SettingsVC.swift in Sources */,
 				5E709EA824476DF600D24EC9 /* SettingCell.swift in Sources */,
 				5E5C0F9A24472841001C45EB /* PreExisting.swift in Sources */,

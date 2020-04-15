@@ -19,6 +19,7 @@ class SymptomsVC: UIViewController {
     
     let viewModel = SymptomsVM()
     var set = Set<Symptom>()
+    let preferences = UserDefaults.standard
     var symptomScore = 1
     var disposeBag: DisposeBag = DisposeBag()
     
@@ -39,7 +40,10 @@ extension SymptomsVC {
         continueButton.rx
             .tap
             .subscribe(onNext: { [weak self] _ in
-                UserDefaults.standard.set((self!.symptomScore*self!.set.count*10), forKey: "symptomScore")
+                self?.preferences.set((self!.symptomScore*self!.set.count*10), forKey: "symptomScore")
+                self?.set.forEach { symptom in
+                    SymptomsManager.shared.postRecordedSymptom(with: symptom)
+                }
                 MainCoordinator.shared.onSymptomsCompleted()
                 self?.dismiss(animated: false, completion: nil)
             }).disposed(by: disposeBag)
