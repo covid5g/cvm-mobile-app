@@ -10,6 +10,8 @@ import UIKit
 
 class DisclaimerVC: UIViewController {
 
+    @IBOutlet weak var declineButton: UIButton!
+    @IBOutlet weak var acceptButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

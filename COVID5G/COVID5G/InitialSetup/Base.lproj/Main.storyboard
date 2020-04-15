@@ -85,6 +85,10 @@ Nothing contained in COVID5G  Application is intended to be used for medical dia
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="acceptButton" destination="DEl-ru-IWK" id="2UG-oE-7FZ"/>
+                        <outlet property="declineButton" destination="dV8-fz-MpA" id="SDD-d0-rKG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,6 +169,7 @@ This will help healthcare providers to protect the public locations or your cont
                     <navigationItem key="navigationItem" id="HVQ-bo-8U5"/>
                     <connections>
                         <outlet property="continueButton" destination="1j8-40-s2U" id="Dyg-gy-Shg"/>
+                        <outlet property="declineButton" destination="GhC-Rb-PQa" id="hNF-i9-YfT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kse-BV-kjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

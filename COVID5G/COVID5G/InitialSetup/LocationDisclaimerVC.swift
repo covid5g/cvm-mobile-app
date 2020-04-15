@@ -11,6 +11,7 @@ import UIKit
 
 class LocationDisclaimerVC: UIViewController {
 
+    @IBOutlet weak var declineButton: UIButton!
     @IBOutlet weak var continueButton: UIButton!
     var disposeBag: DisposeBag = DisposeBag()
     override func viewDidLoad() {

@@ -136,3 +136,22 @@ extension MainCoordinator{
         navigationController.pushViewController(viewController, animated: true)
     }
 }
+
+
+//SettingsVC
+
+extension MainCoordinator{
+    func showDisclaimer() {
+        let viewController = Storyboard.Main.disclaimerVC.get()
+        self.navigationController.present(viewController, animated: true, completion: nil)
+        viewController.acceptButton.isHidden = true
+        viewController.declineButton.isHidden = true
+    }
+    
+    func showLocationDisclaimer() {
+        let viewController = Storyboard.Main.locationDisclaimerVC.get()
+        self.navigationController.present(viewController, animated: true, completion: nil)
+        viewController.continueButton.isHidden = true
+        viewController.declineButton.isHidden = true 
+    }
+}

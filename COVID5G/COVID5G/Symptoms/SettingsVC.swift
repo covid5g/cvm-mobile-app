@@ -34,8 +34,8 @@ extension SettingsVC {
         settingsTableView.rx.itemSelected
             .subscribe(onNext: { indexPath in
                 switch indexPath.row {
-                case 0: print(0) //MainCoordinator.shared.showLocations()
-                case 1: print(1) //MainCoordinator.shared.showFirstDisclaimer()
+                case 0: MainCoordinator.shared.showDisclaimer()
+                case 1: MainCoordinator.shared.showLocationDisclaimer()
                 default: break
                 }
                 
