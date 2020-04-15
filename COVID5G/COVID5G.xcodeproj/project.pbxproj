@@ -60,6 +60,9 @@
 		5E709EBA244789C400D24EC9 /* Management.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E709EB9244789C400D24EC9 /* Management.json */; };
 		5E709EBC244789D600D24EC9 /* ManagementLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBB244789D600D24EC9 /* ManagementLocal.swift */; };
 		5E709EBE244789F400D24EC9 /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBD244789F400D24EC9 /* Management.swift */; };
+		5E709EC024478F2900D24EC9 /* AddSymptomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */; };
+		5E709EC2244792F900D24EC9 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E709EC1244792F900D24EC9 /* MapVC.swift */; };
+		5E709EC4244793F100D24EC9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E709EC3244793F000D24EC9 /* WebKit.framework */; };
 		5EB057A124465D800029556C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A024465D800029556C /* AppDelegate.swift */; };
 		5EB057A324465D800029556C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A224465D800029556C /* SceneDelegate.swift */; };
 		5EB057A524465D800029556C /* DisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB057A424465D800029556C /* DisclaimerVC.swift */; };
@@ -123,6 +126,9 @@
 		5E709EB9244789C400D24EC9 /* Management.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Management.json; sourceTree = "<group>"; };
 		5E709EBB244789D600D24EC9 /* ManagementLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementLocal.swift; sourceTree = "<group>"; };
 		5E709EBD244789F400D24EC9 /* Management.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Management.swift; sourceTree = "<group>"; };
+		5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSymptomVC.swift; sourceTree = "<group>"; };
+		5E709EC1244792F900D24EC9 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		5E709EC3244793F000D24EC9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5EB0579D24465D800029556C /* COVID5G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVID5G.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB057A024465D800029556C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB057A224465D800029556C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E709EC4244793F100D24EC9 /* WebKit.framework in Frameworks */,
 				5BB9AD427E0C00D7ED6D740A /* Pods_COVID5G.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +171,8 @@
 				5E709EA524476DAB00D24EC9 /* SettingsVC.swift */,
 				5E709EAB24477E2000D24EC9 /* AssessmentVC.swift */,
 				5E709EB52447895B00D24EC9 /* AssessmentVM.swift */,
+				5E709EBF24478F2900D24EC9 /* AddSymptomVC.swift */,
+				5E709EC1244792F900D24EC9 /* MapVC.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -292,6 +301,7 @@
 		99BF280F5CCDC1BFACCC568F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E709EC3244793F000D24EC9 /* WebKit.framework */,
 				41C347CBEC25C5D17C271CDF /* Pods_COVID5G.framework */,
 			);
 			name = Frameworks;
@@ -440,6 +450,7 @@
 				5E33DC1C24473D80008A67E5 /* SymptomsLocal.swift in Sources */,
 				5E709EB224477FF300D24EC9 /* RecordedSymptom.swift in Sources */,
 				5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */,
+				5E709EC2244792F900D24EC9 /* MapVC.swift in Sources */,
 				5E33DC1824473BFF008A67E5 /* Symptom.swift in Sources */,
 				5E709EB62447895B00D24EC9 /* AssessmentVM.swift in Sources */,
 				5E5C0F6924470134001C45EB /* LoginVC.swift in Sources */,
@@ -452,6 +463,7 @@
 				5E5C0F7C244712D5001C45EB /* AgeGroup.swift in Sources */,
 				5E5C0F982447278C001C45EB /* UrgentMedicalLocal.swift in Sources */,
 				5E709EAC24477E2000D24EC9 /* AssessmentVC.swift in Sources */,
+				5E709EC024478F2900D24EC9 /* AddSymptomVC.swift in Sources */,
 				5E5C0F76244712A6001C45EB /* AgeLocal.swift in Sources */,
 				5E709EBE244789F400D24EC9 /* Management.swift in Sources */,
 				5E5C0F942447276B001C45EB /* ImmediateMedicalLocal.swift in Sources */,

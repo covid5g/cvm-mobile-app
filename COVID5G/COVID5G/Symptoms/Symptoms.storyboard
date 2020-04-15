@@ -310,7 +310,7 @@
         <!--Symptoms-->
         <scene sceneID="b1M-Gl-75g">
             <objects>
-                <viewController id="vkJ-PJ-Egt" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddSymptomVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vkJ-PJ-Egt" customClass="AddSymptomVC" customModule="COVID5G" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7dD-pa-8Zt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -332,7 +332,7 @@
                                 <rect key="frame" x="0.0" y="158.5" width="414" height="654.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dwW-dk-Hy7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dwW-dk-Hy7" customClass="SymptomCell" customModule="COVID5G" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dwW-dk-Hy7" id="ebV-rc-0S9">
@@ -342,23 +342,32 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHq-oz-jzW">
+                                <rect key="frame" x="379" y="44" width="25" height="24"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="qa2-7a-5lO" firstAttribute="leading" secondItem="7dD-pa-8Zt" secondAttribute="leading" id="DaB-F8-SyJ"/>
                             <constraint firstItem="zje-Bp-v0W" firstAttribute="bottom" secondItem="j4E-Ix-7gg" secondAttribute="bottom" id="HVV-Ty-tYT"/>
                             <constraint firstItem="j4E-Ix-7gg" firstAttribute="top" secondItem="5F7-DA-Hbq" secondAttribute="bottom" constant="20" id="Nyj-TW-Hh3"/>
+                            <constraint firstItem="DHq-oz-jzW" firstAttribute="top" secondItem="zje-Bp-v0W" secondAttribute="top" id="Wr1-M8-uDl"/>
                             <constraint firstItem="zje-Bp-v0W" firstAttribute="trailing" secondItem="j4E-Ix-7gg" secondAttribute="trailing" id="Wvg-cz-rqD"/>
                             <constraint firstItem="zje-Bp-v0W" firstAttribute="trailing" secondItem="5F7-DA-Hbq" secondAttribute="trailing" id="drR-1C-0aB"/>
                             <constraint firstAttribute="trailing" secondItem="qa2-7a-5lO" secondAttribute="trailing" id="fld-dX-mXH"/>
                             <constraint firstItem="5F7-DA-Hbq" firstAttribute="leading" secondItem="7dD-pa-8Zt" secondAttribute="leading" id="gFr-I8-Byd"/>
                             <constraint firstItem="5F7-DA-Hbq" firstAttribute="top" secondItem="qa2-7a-5lO" secondAttribute="bottom" constant="10" id="mcH-vv-DMz"/>
+                            <constraint firstItem="zje-Bp-v0W" firstAttribute="trailing" secondItem="DHq-oz-jzW" secondAttribute="trailing" constant="10" id="nmw-6K-hvz"/>
                             <constraint firstItem="j4E-Ix-7gg" firstAttribute="leading" secondItem="zje-Bp-v0W" secondAttribute="leading" id="pUb-gX-prP"/>
                             <constraint firstItem="qa2-7a-5lO" firstAttribute="top" secondItem="zje-Bp-v0W" secondAttribute="top" constant="10" id="sBK-SF-DEI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zje-Bp-v0W"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Symptoms" image="thermometer" catalog="system" selectedImage="thermometer" id="vL9-Vf-zbL"/>
+                    <connections>
+                        <outlet property="addButton" destination="DHq-oz-jzW" id="gTO-Zr-X2B"/>
+                        <outlet property="symptomsTableView" destination="j4E-Ix-7gg" id="vAF-i9-p7x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JYv-R9-7Zi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -493,7 +502,7 @@
         <!--Map-->
         <scene sceneID="pBH-6n-jEd">
             <objects>
-                <viewController id="N6q-eE-p8X" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="N6q-eE-p8X" customClass="MapVC" customModule="COVID5G" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0q7-ue-tAw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -517,6 +526,9 @@
                         <viewLayoutGuide key="safeArea" id="7rr-c8-dyi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" selectedImage="map" id="DWn-Hu-U13"/>
+                    <connections>
+                        <outlet property="webView" destination="LTr-A2-GNe" id="mpb-jP-TiD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uYZ-bT-ZRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
