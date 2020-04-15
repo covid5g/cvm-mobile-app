@@ -1,0 +1,20 @@
+[
+    {
+        "question": "Travel to or residence in a location reporting community transmission of COVID-19",
+        "points": 10
+    },
+    {
+        "question": "Having been in contact with a confirmed or probable COVID-19 case",
+        "points": 10
+    },
+    {
+        "question": "Required hospitalization",
+        "points": 10
+    },
+    {
+        "question": "No alternative diagnosis that fully explains the clinical presentation",
+        "points": 10
+    }
+]
+
+

@@ -31,6 +31,13 @@ extension RegisterVC {
                 MainCoordinator.shared.onBack()
                 self?.dismiss(animated: true, completion: nil)
             }).disposed(by: disposeBag)
+        
+        registerButton.rx
+        .tap
+          .subscribe(onNext: { [weak self] _ in
+            MainCoordinator.shared.registerUser()
+              self?.dismiss(animated: true, completion: nil)
+          }).disposed(by: disposeBag)
     }
     
     func restartSubscriptions() {

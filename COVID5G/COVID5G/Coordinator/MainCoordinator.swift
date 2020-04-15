@@ -89,7 +89,8 @@ extension MainCoordinator {
 //LoginVC
 extension MainCoordinator {
     func registerUser() {
-        
+        let viewController = Storyboard.Symptoms.profileVC.get()
+        navigationController.pushViewController(viewController, animated: false)
     }
     
 }
@@ -100,4 +101,12 @@ extension MainCoordinator {
         
     }
     
+}
+
+//ProfileVC
+extension MainCoordinator {
+    func onProfileCompleted() {
+        let viewController = Storyboard.Symptoms.generalVC.get()
+        navigationController.pushViewController(viewController, animated: false)
+    }
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Moderate to severe difficulty breathing",
+        "points": 10
+    },
+    {
+        "question": "Unable to speak full sentences",
+        "points": 10
+    },
+    {
+        "question": "Signs of coughing up blood (more than 1 teaspoon)",
+        "points": 10
+    },
+    {
+        "question": "Signs of low blood pressure",
+        "points": 10
+    }
+]
+
+
+
+

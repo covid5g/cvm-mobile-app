@@ -1,0 +1,40 @@
+[
+    {
+        "question": "Sever difficulty breathing",
+        "points": 10
+    },
+    {
+        "question": "Showing blue-coloured lips or face",
+        "points": 10
+    },
+    {
+        "question": "Severe chest pain",
+        "points": 10
+    },
+    {
+        "question": "Severe dizziness or lightheadedness",
+        "points": 10
+    },
+    {
+        "question": "Feeling confused",
+        "points": 10
+    },
+    {
+        "question": "Having a very hard time waking up",
+        "points": 10
+    },
+    {
+        "question": "Losing consciousness",
+        "points": 10
+    },
+    {
+        "question": "New slurred speech",
+        "points": 10
+    },
+    {
+        "question": "New seizure",
+        "points": 10
+    }
+]
+
+

@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Chronic lung disease",
+        "points": 10
+    },
+    {
+        "question": "Congestive heart failure",
+        "points": 10
+    },
+    {
+        "question": "Diabetes with complications",
+        "points": 10
+    },
+    {
+        "question": "Neurologic conditions",
+        "points": 10
+    },
+    {
+        "question": "Weakened immune system",
+        "points": 10
+    },
+    {
+        "question": "Kidney failure",
+        "points": 10
+    },
+    {
+        "question": "Liver cirrhosis",
+        "points": 10
+    },
+    {
+        "question": "Extreme obesity",
+        "points": 10
+    }
+]
+
+
+

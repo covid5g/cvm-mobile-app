@@ -12,6 +12,28 @@
 		5E5C0F6B24470141001C45EB /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6A24470141001C45EB /* RegisterVC.swift */; };
 		5E5C0F6E24470DEE001C45EB /* Symptoms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6D24470DEE001C45EB /* Symptoms.storyboard */; };
 		5E5C0F7024470EC2001C45EB /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6F24470EC2001C45EB /* ProfileVC.swift */; };
+		5E5C0F7424471295001C45EB /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F7324471295001C45EB /* Repository.swift */; };
+		5E5C0F76244712A6001C45EB /* AgeLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F75244712A6001C45EB /* AgeLocal.swift */; };
+		5E5C0F78244712AE001C45EB /* GenderLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F77244712AE001C45EB /* GenderLocal.swift */; };
+		5E5C0F7A244712CC001C45EB /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F79244712CC001C45EB /* Gender.swift */; };
+		5E5C0F7C244712D5001C45EB /* AgeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F7B244712D5001C45EB /* AgeGroup.swift */; };
+		5E5C0F7F2447132A001C45EB /* ageGroup.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F7E2447132A001C45EB /* ageGroup.json */; };
+		5E5C0F812447133C001C45EB /* gender.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F802447133C001C45EB /* gender.json */; };
+		5E5C0F8324471385001C45EB /* ProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8224471385001C45EB /* ProfileVM.swift */; };
+		5E5C0F8624472427001C45EB /* GeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8524472427001C45EB /* GeneralVC.swift */; };
+		5E5C0F88244725E6001C45EB /* general.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F87244725E6001C45EB /* general.json */; };
+		5E5C0F8A24472602001C45EB /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8924472602001C45EB /* General.swift */; };
+		5E5C0F8C2447261F001C45EB /* GeneralLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8B2447261F001C45EB /* GeneralLocal.swift */; };
+		5E5C0F8E2447268B001C45EB /* immediateMedicalAttention.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8D2447268B001C45EB /* immediateMedicalAttention.json */; };
+		5E5C0F90244726A8001C45EB /* urgentMedical.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F8F244726A8001C45EB /* urgentMedical.json */; };
+		5E5C0F9224472742001C45EB /* suspectCase.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9124472742001C45EB /* suspectCase.json */; };
+		5E5C0F942447276B001C45EB /* ImmediateMedicalLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F932447276B001C45EB /* ImmediateMedicalLocal.swift */; };
+		5E5C0F9624472779001C45EB /* SuspectCaseLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9524472779001C45EB /* SuspectCaseLocal.swift */; };
+		5E5C0F982447278C001C45EB /* UrgentMedicalLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F972447278C001C45EB /* UrgentMedicalLocal.swift */; };
+		5E5C0F9A24472841001C45EB /* PreExisting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9924472841001C45EB /* PreExisting.swift */; };
+		5E5C0F9C244728FC001C45EB /* GeneralVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9B244728FC001C45EB /* GeneralVM.swift */; };
+		5E5C0F9E2447296E001C45EB /* GeneralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9D2447296E001C45EB /* GeneralCell.swift */; };
+		5E5C0FA024472979001C45EB /* GeneralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F9F24472979001C45EB /* GeneralCell.xib */; };
 		5E60C22C2446F96D006AAB62 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C22B2446F96D006AAB62 /* Storyboard.swift */; };
 		5E60C22F2446FCA6006AAB62 /* LocationDisclaimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C22E2446FCA6006AAB62 /* LocationDisclaimerVC.swift */; };
 		5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60C2302446FF37006AAB62 /* AuthenticateVC.swift */; };
@@ -30,6 +52,28 @@
 		5E5C0F6A24470141001C45EB /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		5E5C0F6D24470DEE001C45EB /* Symptoms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Symptoms.storyboard; sourceTree = "<group>"; };
 		5E5C0F6F24470EC2001C45EB /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5E5C0F7324471295001C45EB /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		5E5C0F75244712A6001C45EB /* AgeLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeLocal.swift; sourceTree = "<group>"; };
+		5E5C0F77244712AE001C45EB /* GenderLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderLocal.swift; sourceTree = "<group>"; };
+		5E5C0F79244712CC001C45EB /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		5E5C0F7B244712D5001C45EB /* AgeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeGroup.swift; sourceTree = "<group>"; };
+		5E5C0F7E2447132A001C45EB /* ageGroup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ageGroup.json; sourceTree = "<group>"; };
+		5E5C0F802447133C001C45EB /* gender.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gender.json; sourceTree = "<group>"; };
+		5E5C0F8224471385001C45EB /* ProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVM.swift; sourceTree = "<group>"; };
+		5E5C0F8524472427001C45EB /* GeneralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralVC.swift; sourceTree = "<group>"; };
+		5E5C0F87244725E6001C45EB /* general.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = general.json; sourceTree = "<group>"; };
+		5E5C0F8924472602001C45EB /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		5E5C0F8B2447261F001C45EB /* GeneralLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLocal.swift; sourceTree = "<group>"; };
+		5E5C0F8D2447268B001C45EB /* immediateMedicalAttention.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = immediateMedicalAttention.json; sourceTree = "<group>"; };
+		5E5C0F8F244726A8001C45EB /* urgentMedical.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = urgentMedical.json; sourceTree = "<group>"; };
+		5E5C0F9124472742001C45EB /* suspectCase.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = suspectCase.json; sourceTree = "<group>"; };
+		5E5C0F932447276B001C45EB /* ImmediateMedicalLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmediateMedicalLocal.swift; sourceTree = "<group>"; };
+		5E5C0F9524472779001C45EB /* SuspectCaseLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspectCaseLocal.swift; sourceTree = "<group>"; };
+		5E5C0F972447278C001C45EB /* UrgentMedicalLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgentMedicalLocal.swift; sourceTree = "<group>"; };
+		5E5C0F9924472841001C45EB /* PreExisting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreExisting.swift; sourceTree = "<group>"; };
+		5E5C0F9B244728FC001C45EB /* GeneralVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralVM.swift; sourceTree = "<group>"; };
+		5E5C0F9D2447296E001C45EB /* GeneralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralCell.swift; sourceTree = "<group>"; };
+		5E5C0F9F24472979001C45EB /* GeneralCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralCell.xib; sourceTree = "<group>"; };
 		5E60C22B2446F96D006AAB62 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		5E60C22E2446FCA6006AAB62 /* LocationDisclaimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDisclaimerVC.swift; sourceTree = "<group>"; };
 		5E60C2302446FF37006AAB62 /* AuthenticateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateVC.swift; sourceTree = "<group>"; };
@@ -61,10 +105,61 @@
 		5E5C0F6C24470DD2001C45EB /* Symptoms */ = {
 			isa = PBXGroup;
 			children = (
+				5E5C0F8424472412001C45EB /* Components */,
 				5E5C0F6D24470DEE001C45EB /* Symptoms.storyboard */,
 				5E5C0F6F24470EC2001C45EB /* ProfileVC.swift */,
+				5E5C0F8224471385001C45EB /* ProfileVM.swift */,
+				5E5C0F8524472427001C45EB /* GeneralVC.swift */,
+				5E5C0F9B244728FC001C45EB /* GeneralVM.swift */,
 			);
 			path = Symptoms;
+			sourceTree = "<group>";
+		};
+		5E5C0F7124471236001C45EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C0F79244712CC001C45EB /* Gender.swift */,
+				5E5C0F9924472841001C45EB /* PreExisting.swift */,
+				5E5C0F8924472602001C45EB /* General.swift */,
+				5E5C0F7B244712D5001C45EB /* AgeGroup.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E5C0F7224471272001C45EB /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C0F7324471295001C45EB /* Repository.swift */,
+				5E5C0F932447276B001C45EB /* ImmediateMedicalLocal.swift */,
+				5E5C0F9524472779001C45EB /* SuspectCaseLocal.swift */,
+				5E5C0F972447278C001C45EB /* UrgentMedicalLocal.swift */,
+				5E5C0F75244712A6001C45EB /* AgeLocal.swift */,
+				5E5C0F77244712AE001C45EB /* GenderLocal.swift */,
+				5E5C0F8B2447261F001C45EB /* GeneralLocal.swift */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		5E5C0F7D24471303001C45EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C0F7E2447132A001C45EB /* ageGroup.json */,
+				5E5C0F8D2447268B001C45EB /* immediateMedicalAttention.json */,
+				5E5C0F8F244726A8001C45EB /* urgentMedical.json */,
+				5E5C0F9124472742001C45EB /* suspectCase.json */,
+				5E5C0F87244725E6001C45EB /* general.json */,
+				5E5C0F802447133C001C45EB /* gender.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E5C0F8424472412001C45EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5E5C0F9D2447296E001C45EB /* GeneralCell.swift */,
+				5E5C0F9F24472979001C45EB /* GeneralCell.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		5E60C22D2446F9DA006AAB62 /* InitialSetup */ = {
@@ -101,6 +196,9 @@
 		5EB0579F24465D800029556C /* COVID5G */ = {
 			isa = PBXGroup;
 			children = (
+				5E5C0F7D24471303001C45EB /* Resources */,
+				5E5C0F7224471272001C45EB /* DataAccess */,
+				5E5C0F7124471236001C45EB /* Models */,
 				5E5C0F6C24470DD2001C45EB /* Symptoms */,
 				5E60C22D2446F9DA006AAB62 /* InitialSetup */,
 				5EB057B42446623E0029556C /* Coordinator */,
@@ -201,8 +299,15 @@
 			files = (
 				5EB057AD24465D840029556C /* LaunchScreen.storyboard in Resources */,
 				5EB057AA24465D840029556C /* Assets.xcassets in Resources */,
+				5E5C0F812447133C001C45EB /* gender.json in Resources */,
 				5E5C0F6E24470DEE001C45EB /* Symptoms.storyboard in Resources */,
+				5E5C0F90244726A8001C45EB /* urgentMedical.json in Resources */,
+				5E5C0FA024472979001C45EB /* GeneralCell.xib in Resources */,
+				5E5C0F88244725E6001C45EB /* general.json in Resources */,
+				5E5C0F8E2447268B001C45EB /* immediateMedicalAttention.json in Resources */,
 				5EB057A824465D800029556C /* Main.storyboard in Resources */,
+				5E5C0F7F2447132A001C45EB /* ageGroup.json in Resources */,
+				5E5C0F9224472742001C45EB /* suspectCase.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +365,26 @@
 				5E60C2312446FF37006AAB62 /* AuthenticateVC.swift in Sources */,
 				5E5C0F6924470134001C45EB /* LoginVC.swift in Sources */,
 				5EB057B6244662610029556C /* MainCoordinator.swift in Sources */,
+				5E5C0F9E2447296E001C45EB /* GeneralCell.swift in Sources */,
+				5E5C0F7C244712D5001C45EB /* AgeGroup.swift in Sources */,
+				5E5C0F982447278C001C45EB /* UrgentMedicalLocal.swift in Sources */,
+				5E5C0F76244712A6001C45EB /* AgeLocal.swift in Sources */,
+				5E5C0F942447276B001C45EB /* ImmediateMedicalLocal.swift in Sources */,
+				5E5C0F9624472779001C45EB /* SuspectCaseLocal.swift in Sources */,
+				5E5C0F7A244712CC001C45EB /* Gender.swift in Sources */,
+				5E5C0F9A24472841001C45EB /* PreExisting.swift in Sources */,
+				5E5C0F78244712AE001C45EB /* GenderLocal.swift in Sources */,
+				5E5C0F7424471295001C45EB /* Repository.swift in Sources */,
 				5E60C22C2446F96D006AAB62 /* Storyboard.swift in Sources */,
+				5E5C0F8624472427001C45EB /* GeneralVC.swift in Sources */,
+				5E5C0F8A24472602001C45EB /* General.swift in Sources */,
 				5EB057A124465D800029556C /* AppDelegate.swift in Sources */,
 				5E5C0F6B24470141001C45EB /* RegisterVC.swift in Sources */,
+				5E5C0F9C244728FC001C45EB /* GeneralVM.swift in Sources */,
 				5E60C22F2446FCA6006AAB62 /* LocationDisclaimerVC.swift in Sources */,
+				5E5C0F8324471385001C45EB /* ProfileVM.swift in Sources */,
 				5EB057A324465D800029556C /* SceneDelegate.swift in Sources */,
+				5E5C0F8C2447261F001C45EB /* GeneralLocal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
