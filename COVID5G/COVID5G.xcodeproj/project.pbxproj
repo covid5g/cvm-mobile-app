@@ -15,6 +15,10 @@
 		5E33DC2024473DCC008A67E5 /* SymptomsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DC1F24473DCC008A67E5 /* SymptomsVM.swift */; };
 		5E33DC2224473F0C008A67E5 /* SymptomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DC2124473F0C008A67E5 /* SymptomCell.swift */; };
 		5E33DC2424473F1C008A67E5 /* SymptomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E33DC2324473F1C008A67E5 /* SymptomCell.xib */; };
+		5E33DC2624474438008A67E5 /* PreExistingConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DC2524474438008A67E5 /* PreExistingConditionsVC.swift */; };
+		5E33DC2824474448008A67E5 /* PreExistingConditionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DC2724474448008A67E5 /* PreExistingConditionsVM.swift */; };
+		5E33DC2A244744C1008A67E5 /* PreExistingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DC29244744C1008A67E5 /* PreExistingCell.swift */; };
+		5E33DC2C244744CC008A67E5 /* PreExistingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E33DC2B244744CC008A67E5 /* PreExistingCell.xib */; };
 		5E5C0F6924470134001C45EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6824470134001C45EB /* LoginVC.swift */; };
 		5E5C0F6B24470141001C45EB /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6A24470141001C45EB /* RegisterVC.swift */; };
 		5E5C0F6E24470DEE001C45EB /* Symptoms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E5C0F6D24470DEE001C45EB /* Symptoms.storyboard */; };
@@ -62,6 +66,10 @@
 		5E33DC1F24473DCC008A67E5 /* SymptomsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsVM.swift; sourceTree = "<group>"; };
 		5E33DC2124473F0C008A67E5 /* SymptomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCell.swift; sourceTree = "<group>"; };
 		5E33DC2324473F1C008A67E5 /* SymptomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymptomCell.xib; sourceTree = "<group>"; };
+		5E33DC2524474438008A67E5 /* PreExistingConditionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreExistingConditionsVC.swift; sourceTree = "<group>"; };
+		5E33DC2724474448008A67E5 /* PreExistingConditionsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreExistingConditionsVM.swift; sourceTree = "<group>"; };
+		5E33DC29244744C1008A67E5 /* PreExistingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreExistingCell.swift; sourceTree = "<group>"; };
+		5E33DC2B244744CC008A67E5 /* PreExistingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreExistingCell.xib; sourceTree = "<group>"; };
 		5E5C0F6824470134001C45EB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5E5C0F6A24470141001C45EB /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		5E5C0F6D24470DEE001C45EB /* Symptoms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Symptoms.storyboard; sourceTree = "<group>"; };
@@ -127,6 +135,8 @@
 				5E5C0F8224471385001C45EB /* ProfileVM.swift */,
 				5E5C0F8524472427001C45EB /* GeneralVC.swift */,
 				5E5C0F9B244728FC001C45EB /* GeneralVM.swift */,
+				5E33DC2524474438008A67E5 /* PreExistingConditionsVC.swift */,
+				5E33DC2724474448008A67E5 /* PreExistingConditionsVM.swift */,
 			);
 			path = Symptoms;
 			sourceTree = "<group>";
@@ -179,6 +189,8 @@
 				5E5C0F9F24472979001C45EB /* GeneralCell.xib */,
 				5E33DC2124473F0C008A67E5 /* SymptomCell.swift */,
 				5E33DC2324473F1C008A67E5 /* SymptomCell.xib */,
+				5E33DC29244744C1008A67E5 /* PreExistingCell.swift */,
+				5E33DC2B244744CC008A67E5 /* PreExistingCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -320,6 +332,7 @@
 			files = (
 				5EB057AD24465D840029556C /* LaunchScreen.storyboard in Resources */,
 				5E33DC1A24473CBC008A67E5 /* Symptoms.json in Resources */,
+				5E33DC2C244744CC008A67E5 /* PreExistingCell.xib in Resources */,
 				5EB057AA24465D840029556C /* Assets.xcassets in Resources */,
 				5E33DC2424473F1C008A67E5 /* SymptomCell.xib in Resources */,
 				5E5C0F812447133C001C45EB /* gender.json in Resources */,
@@ -390,6 +403,8 @@
 				5E33DC1824473BFF008A67E5 /* Symptom.swift in Sources */,
 				5E5C0F6924470134001C45EB /* LoginVC.swift in Sources */,
 				5EB057B6244662610029556C /* MainCoordinator.swift in Sources */,
+				5E33DC2824474448008A67E5 /* PreExistingConditionsVM.swift in Sources */,
+				5E33DC2624474438008A67E5 /* PreExistingConditionsVC.swift in Sources */,
 				5E5C0F9E2447296E001C45EB /* GeneralCell.swift in Sources */,
 				5E5C0F7C244712D5001C45EB /* AgeGroup.swift in Sources */,
 				5E5C0F982447278C001C45EB /* UrgentMedicalLocal.swift in Sources */,
@@ -412,6 +427,7 @@
 				5E33DC1E24473DC3008A67E5 /* SymptomsVC.swift in Sources */,
 				5E5C0F8324471385001C45EB /* ProfileVM.swift in Sources */,
 				5EB057A324465D800029556C /* SceneDelegate.swift in Sources */,
+				5E33DC2A244744C1008A67E5 /* PreExistingCell.swift in Sources */,
 				5E5C0F8C2447261F001C45EB /* GeneralLocal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -113,7 +113,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx7-h9-BGW">
-                                <rect key="frame" x="310" y="54" width="94" height="22"/>
+                                <rect key="frame" x="310" y="44" width="94" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Continue " image="chevron.left" catalog="system">
@@ -148,7 +148,7 @@
                             <constraint firstAttribute="trailing" secondItem="Hx7-h9-BGW" secondAttribute="trailing" constant="10" id="EHn-pB-C9c"/>
                             <constraint firstItem="VQO-0P-CGt" firstAttribute="trailing" secondItem="cUg-XM-8Qi" secondAttribute="trailing" id="EXU-nX-vE2"/>
                             <constraint firstItem="p02-T9-QO6" firstAttribute="leading" secondItem="VQO-0P-CGt" secondAttribute="leading" id="EvI-vQ-Hk8"/>
-                            <constraint firstItem="Hx7-h9-BGW" firstAttribute="top" secondItem="VQO-0P-CGt" secondAttribute="top" constant="10" id="SuW-fh-zjK"/>
+                            <constraint firstItem="Hx7-h9-BGW" firstAttribute="top" secondItem="VQO-0P-CGt" secondAttribute="top" id="SuW-fh-zjK"/>
                             <constraint firstAttribute="trailing" secondItem="nc0-l5-wWE" secondAttribute="trailing" id="cgH-lF-mBW"/>
                             <constraint firstItem="p02-T9-QO6" firstAttribute="top" secondItem="VQO-0P-CGt" secondAttribute="top" constant="20" id="cqV-0T-xKp"/>
                             <constraint firstItem="VQO-0P-CGt" firstAttribute="bottom" secondItem="nc0-l5-wWE" secondAttribute="bottom" constant="10" id="cyc-kT-dCV"/>
@@ -203,7 +203,7 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8T-UC-Mzy">
-                                <rect key="frame" x="330" y="44" width="94" height="22"/>
+                                <rect key="frame" x="310" y="44" width="94" height="22"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Continue " image="chevron.left" catalog="system">
@@ -215,7 +215,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="GE4-pk-1Qf" secondAttribute="trailing" id="4cu-gl-Htg"/>
                             <constraint firstItem="Ahk-Hq-vvq" firstAttribute="leading" secondItem="ngI-i4-CQb" secondAttribute="leading" id="BtK-4G-8aA"/>
-                            <constraint firstItem="L8T-UC-Mzy" firstAttribute="trailing" secondItem="ngI-i4-CQb" secondAttribute="trailing" constant="10" id="S0A-r5-1bj"/>
+                            <constraint firstItem="ngI-i4-CQb" firstAttribute="trailing" secondItem="L8T-UC-Mzy" secondAttribute="trailing" constant="10" id="Eom-hN-Tjb"/>
                             <constraint firstItem="Ahk-Hq-vvq" firstAttribute="top" secondItem="GE4-pk-1Qf" secondAttribute="bottom" constant="10" id="Snx-p5-Csu"/>
                             <constraint firstItem="GE4-pk-1Qf" firstAttribute="top" secondItem="ngI-i4-CQb" secondAttribute="top" constant="20" id="bP2-y8-vOP"/>
                             <constraint firstItem="3Di-Tv-EBr" firstAttribute="leading" secondItem="ngI-i4-CQb" secondAttribute="leading" id="bk7-H3-dlR"/>
@@ -237,10 +237,10 @@
             </objects>
             <point key="canvasLocation" x="2130" y="-344"/>
         </scene>
-        <!--View Controller-->
+        <!--Pre Existing ConditionsVC-->
         <scene sceneID="Gvv-Qm-jLU">
             <objects>
-                <viewController id="q2o-Ir-K0L" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PreExistingConditionsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q2o-Ir-K0L" customClass="PreExistingConditionsVC" customModule="COVID5G" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HJ3-ln-CR5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -262,7 +262,7 @@
                                 <rect key="frame" x="0.0" y="168.5" width="414" height="683.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WQk-mo-SZa">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WQk-mo-SZa" customClass="PreExistingCell" customModule="COVID5G" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WQk-mo-SZa" id="0Kk-SW-462">
@@ -298,6 +298,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W2Q-Oa-cFl"/>
                     </view>
+                    <connections>
+                        <outlet property="continueButton" destination="kok-8A-G6U" id="lm4-We-rAd"/>
+                        <outlet property="preExistingConditionTableView" destination="z6Z-HK-j3c" id="2ar-T7-l9e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IUD-Hf-ELe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

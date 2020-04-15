@@ -40,7 +40,7 @@ extension SymptomsVC {
             .tap
             .subscribe(onNext: { [weak self] _ in
                 UserDefaults.standard.set((self!.symptomScore*self!.set.count*10), forKey: "symptomScore")
-                MainCoordinator.shared.loginUser()
+                MainCoordinator.shared.onSymptomsCompleted()
                 self?.dismiss(animated: false, completion: nil)
             }).disposed(by: disposeBag)
     }

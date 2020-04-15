@@ -38,7 +38,7 @@ extension GeneralVC {
         continueButton.rx
             .tap
             .subscribe(onNext: { [weak self] _ in
-                UserDefaults.standard.set((self!.generalScore*self!.set.count*10), forKey: "historyScore")
+                UserDefaults.standard.set((self!.generalScore*self!.set.count*10), forKey: "generalScore")
                 MainCoordinator.shared.onGeneralCompleted()
                 self?.dismiss(animated: false, completion: nil)
             }).disposed(by: disposeBag)

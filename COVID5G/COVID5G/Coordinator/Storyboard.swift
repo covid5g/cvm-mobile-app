@@ -40,6 +40,7 @@ struct Storyboard {
         static let profileVC = Covid5G<ProfileVC>(storyboard: .symptoms, storyboardId: "ProfileVC")
         static let generalVC = Covid5G<GeneralVC>(storyboard: .symptoms, storyboardId: "GeneralVC")
         static let symptomsVC = Covid5G<SymptomsVC>(storyboard: .symptoms, storyboardId: "SymptomsVC")
+        static let preExistingConditionsVC = Covid5G<PreExistingConditionsVC>(storyboard: .symptoms, storyboardId: "PreExistingConditionsVC")
     }
     
 }

@@ -118,3 +118,11 @@ extension MainCoordinator {
         navigationController.pushViewController(viewController, animated: false)
     }
 }
+
+//SymptomsVC
+extension MainCoordinator {
+    func onSymptomsCompleted() {
+        let viewController = Storyboard.Symptoms.preExistingConditionsVC.get()
+        navigationController.pushViewController(viewController, animated: false)
+    }
+}
