@@ -9,35 +9,35 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GeneralCell" customModule="COVID5G" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SymptomCell" customModule="COVID5G" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsO-Cn-QWI">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-PL-IJV">
                     <rect key="frame" x="10" y="50" width="345" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d9I-pn-qyx">
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pkn-pb-5FG">
                     <rect key="frame" x="355" y="44.5" width="51" height="31"/>
                 </switch>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="AsO-Cn-QWI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="5vw-3o-z4k"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="d9I-pn-qyx" secondAttribute="trailing" constant="10" id="EJB-Gz-fVj"/>
-                <constraint firstItem="AsO-Cn-QWI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="OOr-fF-oZw"/>
-                <constraint firstItem="d9I-pn-qyx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TxC-y6-VRj"/>
-                <constraint firstItem="d9I-pn-qyx" firstAttribute="leading" secondItem="AsO-Cn-QWI" secondAttribute="trailing" id="nbH-d0-bNX"/>
+                <constraint firstItem="ARE-PL-IJV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="As2-te-TrL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Pkn-pb-5FG" secondAttribute="trailing" constant="10" id="Rm6-wo-mge"/>
+                <constraint firstItem="Pkn-pb-5FG" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="boQ-bO-QgW"/>
+                <constraint firstItem="Pkn-pb-5FG" firstAttribute="leading" secondItem="ARE-PL-IJV" secondAttribute="trailing" id="wdT-wy-C1b"/>
+                <constraint firstItem="ARE-PL-IJV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="y8X-lW-Xr2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
-                <outlet property="generalLabel" destination="AsO-Cn-QWI" id="Op5-Mc-6Mw"/>
-                <outlet property="generalSwitch" destination="d9I-pn-qyx" id="msX-M2-Od1"/>
+                <outlet property="symptomLabel" destination="ARE-PL-IJV" id="vzT-lT-7WW"/>
+                <outlet property="symptomSwitch" destination="Pkn-pb-5FG" id="Jgf-aR-Z18"/>
             </connections>
-            <point key="canvasLocation" x="139" y="141"/>
+            <point key="canvasLocation" x="139" y="118"/>
         </view>
     </objects>
 </document>

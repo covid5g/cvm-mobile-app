@@ -1,0 +1,32 @@
+[
+    {
+        "displayName": "Fever",
+        "value": false,
+        "points": 10
+    },
+    {
+        "displayName": "Dry Cough",
+        "value": false,
+        "points": 10
+    },
+    {
+        "displayName": "Shortness of Breath",
+        "value": false,
+        "points": 10
+    },
+    {
+        "displayName": "Fatigue",
+        "value": false,
+        "points": 10
+    },
+    {
+        "displayName": "Runny Nose",
+        "value": false,
+        "points": 10
+    },
+      {
+        "displayName": "Headache",
+        "value": false,
+        "points": 10
+    }
+]

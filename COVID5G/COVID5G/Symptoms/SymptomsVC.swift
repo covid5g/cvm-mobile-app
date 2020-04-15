@@ -1,5 +1,5 @@
 //
-//  GeneralVC.swift
+//  SymptomsVC.swift
 //  COVID5G
 //
 //  Created by Darius-George Oanea on 4/15/20.
@@ -10,36 +10,37 @@ import RxCocoa
 import RxSwift
 import UIKit
 
-class GeneralVC: UIViewController {
+class SymptomsVC: UIViewController {
+
+    
     @IBOutlet weak var continueButton: UIButton!
-    @IBOutlet weak var generalTableView: UITableView!
+    @IBOutlet weak var symptomsTableView: UITableView!
     
     
-    
-    let viewModel = GeneralVM()
-    var set = Set<General>()
-    var generalScore = 1
+    let viewModel = SymptomsVM()
+    var set = Set<Symptom>()
+    var symptomScore = 1
     var disposeBag: DisposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         startSubscriptions()
         
-        generalTableView.register(UINib(nibName: "GeneralCell", bundle: Bundle.main), forCellReuseIdentifier: "GeneralCell")
-        generalTableView.rowHeight = 80
+        symptomsTableView.register(UINib(nibName: "SymptomCell", bundle: Bundle.main), forCellReuseIdentifier: "SymptomCell")
+        symptomsTableView.rowHeight = 80
         bindData()
         
         
     }
 }
 
-extension GeneralVC {
+extension SymptomsVC {
     func startSubscriptions() {
         continueButton.rx
             .tap
             .subscribe(onNext: { [weak self] _ in
-                UserDefaults.standard.set((self!.generalScore*self!.set.count*10), forKey: "historyScore")
-                MainCoordinator.shared.onGeneralCompleted()
+                UserDefaults.standard.set((self!.symptomScore*self!.set.count*10), forKey: "symptomScore")
+                MainCoordinator.shared.loginUser()
                 self?.dismiss(animated: false, completion: nil)
             }).disposed(by: disposeBag)
     }
@@ -54,26 +55,27 @@ extension GeneralVC {
     }
 }
 
-extension GeneralVC {
+extension SymptomsVC {
     func bindData() {
-        self.viewModel.generalQuestions.bind(to: generalTableView.rx.items(cellIdentifier: "GeneralCell",
-                                                                           cellType: GeneralCell.self)) { _, element, cell in
+        self.viewModel.symptoms.bind(to: symptomsTableView.rx.items(cellIdentifier: "SymptomCell",
+                                                                           cellType: SymptomCell.self)) { _, element, cell in
                                                                             cell.set(element)
-                                                                            cell.generalSwitch.rx.isOn.changed
+                                                                            cell.symptomSwitch.rx.isOn.changed
                                                                                 .distinctUntilChanged().asObservable()
                                                                                 .subscribe(onNext: { [weak self] value in
-                                                                                    self?.setGeneral(element: element, value: value)
+                                                                                    self?.setSymptom(element: element, value: value)
                                                                                     
                                                                                 }).disposed(by: self.disposeBag)
         }.disposed(by: disposeBag)
     }
     
     
-    func setGeneral(element: General, value: Bool) {
+    func setSymptom(element: Symptom, value: Bool) {
         if value {
             self.set.insert(element)
         } else {
-            set = set.filter { $0.question != element.question }
+            set = set.filter { $0.displayName != element.displayName }
         }
     }
 }
+

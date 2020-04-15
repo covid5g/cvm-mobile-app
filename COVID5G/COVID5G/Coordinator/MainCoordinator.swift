@@ -110,3 +110,11 @@ extension MainCoordinator {
         navigationController.pushViewController(viewController, animated: false)
     }
 }
+
+//GeneralVC
+extension MainCoordinator {
+    func onGeneralCompleted() {
+        let viewController = Storyboard.Symptoms.symptomsVC.get()
+        navigationController.pushViewController(viewController, animated: false)
+    }
+}
