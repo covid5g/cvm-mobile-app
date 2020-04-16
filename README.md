@@ -1,5 +1,5 @@
 # HackathonCOVID2020
-# Swift-Project-Template
+# COVID5G
 
 iOS Project for the COVID19 crisis. Helps you track the symptoms, and displaying a real-time map with the number of cases near you.
 
